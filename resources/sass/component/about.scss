@@ -1,0 +1,59 @@
+.about-key-banner-bg{
+    background-image: url('~/image/about/ordering-online.jpg');
+}
+
+.about-we-are-digital-bg{
+    background-image: url('~/image/about/about-we-are-digital-bg.jpg');
+}
+
+.about-team-banner-bg{
+    background-image: url('~/image/about/about-team-bg.jpg');
+}
+
+.about-founder-image{
+    background-image: url('~/image/about/founder-image.jpg');
+}
+
+.about-simon-image{
+    background-image: url('~/image/about/Simon-Westerlund.jpg');
+}
+
+.about-Per-image{
+    background-image: url('~/image/about/Per-Mortensen.jpg');
+}
+
+.about-sarah-image{
+    background-image: url('~/image/about/Sarah-Chu.jpg');
+}
+
+.about-nathan-image{
+    background-image: url('~/image/about/Nathan-Sun.jpg');
+}
+
+.about-lindsay-image{
+    background-image: url('~/image/about/Lindsay-Li.jpg');
+}
+
+.about-xiaonan-image{
+    background-image: url('~/image/about/Xiaonan-Cui.jpg');
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .about-banner-body{
+        height: 620px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .about-banner-body {
+        height: auto;
+    }
+    .mobile-text-center{
+        text-align: center;
+    }
+    .mobile-content-margin-right-0{
+        margin-right:0!important;
+    }
+}

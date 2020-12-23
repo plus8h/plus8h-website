@@ -1,0 +1,47 @@
+
+.homepage-key-banner-bg{
+    background-image: url('~/image/homepage/order-online.jpg');
+}
+
+.homepage-logo-bg{
+    background-image: url('~/image/icon/logo-bg.png');
+}
+
+.wechat-store-banner{
+    background-image: url('~/image/homepage/wechat-store.jpg');
+}
+
+.tmall-banner{
+    background-image: url('~/image/homepage/tmall.jpg');
+}
+
+.cross-border{
+    background-image: url('~/image/homepage/cross-border.jpg');
+}
+
+.logo-watermark{
+    opacity: 0.1;
+    width: 15rem;
+    height: auto;
+}
+
+
+
+// @media only screen and (min-width: 1200px) {
+//     .logo-watermark-position{
+//         position: absolute;
+//         top: 0;
+//         right: 0;
+//     }
+    
+// }
+
+
+// @media only screen and (max-width: 768px) {
+//     .logo-watermark-position{
+//         position: absolute;
+//         top: 50%;
+//         left: 50%;
+//         transform: translate(-50%,-50%);
+//     }
+// }

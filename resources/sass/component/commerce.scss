@@ -1,0 +1,122 @@
+.commerce-key-banner-bg{
+    background-image: url('~/image/commerce/e-commerce-key-banner-bg.jpg');
+}
+
+.commerce-own-site-banner-banner-bg{
+    background-image: url('~/image/commerce/owe-site-bg.jpg');
+}
+
+
+.commerce-marketplace-banner-bg{
+    background-image: url('~/image/commerce/marketplace-banner-bg.jpg');
+}
+
+.commerce-cross-border-banner-bg{
+    background-image: url('~/image/commerce/cross-border.jpg');
+}
+
+
+// e-commerce own site
+
+.commerce-own-site-key-banner-bg{
+    background-image: url('~/image/commerce/own-site/e-commerce-own-site-key-banner-bg.jpg');
+}
+
+.commerce-own-site-wechat-banner-bg{
+    background-image: url('~/image/commerce/own-site/e-commerce-own-site-wechat-banner-bg.jpg');
+}
+
+
+// e-commerce marketplace
+
+.commerce-marketplace-key-banner-bg{
+    background-image: url('~/image/commerce/marketplace/e-commerce-marketplace-key-banner-bg.jpg');
+}
+
+.commerce-marketplace-tmall-banner-bg{
+    background-image: url('~/image/commerce/marketplace/tmall.jpg');
+}
+
+.commerce-marketplace-jd-banner-bg{
+    background-image: url('~/image/commerce/marketplace/jd.jpg');
+}
+
+.commerce-marketplace-pingduoduo-banner-bg{
+    background-image: url('~/image/commerce/marketplace/pdd.jpg');
+}
+
+.commerce-marketplace-suning-banner-bg{
+    background-image: url('~/image/commerce/marketplace/suning.jpg');
+}
+
+.commerce-marketplace-yunji-banner-bg{
+    background-image: url('~/image/commerce/marketplace/yunji.jpg');
+}
+
+
+// e-commerce cross border
+
+.cross-border-key-banner-content-height{
+    height: 80%;
+}
+
+.commerce-marketplace-key-banner-content-body{
+    height: 70%;
+}
+
+.commerce-cross-border-China-map{
+    opacity: 0.3;
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.commerce-cross-border-global-map{
+    opacity: 0.3;
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.commerce-cross-border-text-shadow{
+    text-shadow: 3px 3px 15px #000;
+}
+
+@media only screen and (min-width: 1200px) {
+    .commerce-key-banner-height{
+        height: 600px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .commerce-key-banner-height{
+        height: auto;
+    }
+
+    .commerce-key-banner-margin-top{
+        margin-top: 100px;
+    }
+
+    .commerce-cross-border-China-map{
+        opacity: 0.3;
+        width: 100%;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .commerce-cross-border-global-map{
+        opacity: 0.3;
+        width: 100%;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}

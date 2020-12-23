@@ -1,0 +1,55 @@
+.contact-nav-logo{
+    height: 50px;
+    width: auto;
+}
+
+.contact-us-bg{
+    background-image: url('~/image/contact-us/contact-us-bg.jpg');
+}
+@media only screen and (max-width: 768px) {
+    .right-container{
+        height: auto;
+    }
+    .form-left-text-container-width {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .form-left-text-container-width {
+        width: 130px;
+    }
+
+}
+
+.plus8h-select{
+    height: 2rem;
+    background-color: transparent;
+    color: #ffffff;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    font-size: 1rem;
+}
+
+.plus8h-input{
+    height: 2rem;
+    background-color: transparent;
+    color: #ffffff;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom-color: #ffffff;
+    outline: none;
+    font-size: 1rem;
+}
+
+.plus8h-textarea{
+    height: 7rem;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 1rem;
+}

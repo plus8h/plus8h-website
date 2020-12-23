@@ -1,0 +1,54 @@
+.services-key-banner-bg{
+    background-image: url('~/image/services/Social-Media-Marketing.jpg');
+}
+
+.services-payment-solution-banner-bg{
+    background-image: url('~/image/services/Alipay-from-SCMP.jpg');
+}
+
+.services-advisory-banner-bg{
+    background-image: url('~/image/services/Chinese-retail-space.jpg');
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .auto-key-banner-height{
+        height: 720px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .auto-key-banner-height{
+        height: auto;
+    }
+
+    .auto-key-banner-margin-top{
+        margin-top: 100px;
+    }
+}
+
+
+.services-payment-solution-alipay-bg{
+    background-image: url('~/image/services/payment-solution/Alipay-Credit.jpg');
+}
+
+.services-payment-solution-wechatpay-bg{
+    background-image: url('~/image/services/payment-solution/wechatpay-bg.png');
+}
+
+.alipay-mask{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-image: linear-gradient(90deg, #00A1A9, #D3D3D3);
+}
+
+.wechatpay-mask{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-image: linear-gradient(90deg, #05C463, #D3D3D3);
+}
+
+
